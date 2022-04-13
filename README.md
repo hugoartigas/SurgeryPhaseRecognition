@@ -1,6 +1,6 @@
 # Phase detection in hernia surgery
 
-## Abstract
+*Authors :* Antonin Vidon and Hugo Artigas
 
 State-of-the-art CNN based architectures have
 been developed to automatically recognize surgical phases in a
@@ -40,24 +40,24 @@ python split.ipynb # split into training and validation, oversample, ...
 │   └── validation_temp.pkl
 ├── images
 ├── predictions
-│   |── BEST.csv
+│   |── BEST.csv # best prediction on test set, reaching 80.0% accuracy
 │   └── other predictions
 ├── report
 │   |── Assignement2_av3023_ha2605.pdf
 │   └── models.png
 ├── surgery.videos.hernia
-├── weights
-├── label.ipynb
-├── models.py
+├── weights # all weights
+├── label.ipynb # create label df
+├── models.py # all models
 ├── README.md
-├── split.ipynb
-├── train-predict.py
-├── train-predict.sh
-├── train-validate.py
-├── train-validate.sh
-├── utils.py
-├── video.phase.trainingData.clean.StudentVersion.csv
-└── videos-to-images.py
+├── split.ipynb # split data into training, validation and testing set with/without oversampling and temporal organization
+├── train-predict.py # script to train and make predictions on test set
+├── train-predict.sh # template to train and make predictions on test set
+├── train-validate.py # script to train and validate model with argparse
+├── train-validate.sh # template to train and validate model with argparse
+├── utils.py # all useful functions for preprocessing, training, predicting, ...
+├── video.phase.trainingData.clean.StudentVersion.csv # initial labeling data
+└── videos-to-images.py # script to convert and save videos to images
 ```
 
 ## Models
