@@ -16,6 +16,8 @@ we processed the label predictions of our models with a smoothing
 function. Our best model achieved an accuracy of 80.0%
 on the test set.
 
+This project was done during a PhD course in Deep Learning.
+
 ## Preprocessing
 
 ```
